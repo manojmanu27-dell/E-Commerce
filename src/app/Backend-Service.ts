@@ -5,5 +5,5 @@ export class BackendService {
         console.log("backend service api is", environment.api)
     }
 
-    public static login = environment.api + "/login";
+    public static login = environment.api + "login";
 }
