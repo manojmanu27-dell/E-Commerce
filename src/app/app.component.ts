@@ -15,16 +15,16 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     console.log("inside on init ");
     this.imageList = [
-      "../assets/images/Picture1.png",
-      "../assets/images/Picture2.png",
-      "../assets/images/Picture3.png",
-      "../assets/images/Picture4.png",
-      "../assets/images/Picture5.png",
-      "../assets/images/Picture6.png",
-      "../assets/images/Picture7.png",
-      "../assets/images/Picture8.png",
-      "../assets/images/Picture9.png",
-      "../assets/images/Picture10.png"
+      "assets/images/Picture1.png",
+      "assets/images/Picture2.png",
+      "assets/images/Picture3.png",
+      "assets/images/Picture4.png",
+      "assets/images/Picture5.png",
+      "assets/images/Picture6.png",
+      "assets/images/Picture7.png",
+      "assets/images/Picture8.png",
+      "assets/images/Picture9.png",
+      "assets/images/Picture10.png"
     ]
     throw new Error('Method not implemented.');
   }
