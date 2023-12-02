@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ApiCallsService } from './services/api-calls/api-calls.service';
+import { SharedService } from './services/shared.service';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ApiCallsService } from './services/api-calls/api-calls.service';
     HttpClientModule
   ],
   providers: [
-    ApiCallsService
+    ApiCallsService,
+    SharedService
   ],
   bootstrap: [AppComponent]
 })
